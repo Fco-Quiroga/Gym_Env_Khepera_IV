@@ -23,11 +23,11 @@ import math
 """
     Description:
     	The objetive of this environment is to drive the wheeled mobile robot from its
-    	current position to a predefined target point.    
+    	current position to a predefined target point  
 
     Source:
         This environment corresponds to the implementation of the Khepera IV library
-        for robotic control education using V-REP for the position control experiment.
+        for robotic control education using V-REP for the position control experiment
 
     Observation:
         Type: Box(3)
@@ -49,7 +49,7 @@ import math
     Episode Termination:
         When the robot reaches the target point, when the number of steps of the episode
         are greater than the maximum quantity of steps allowed or when the robot leaves
-        the maximum allowed area (square with side 2 meters).
+        the maximum allowed area (square with side 2 meters)
 
 """  
 
